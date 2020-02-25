@@ -1,0 +1,26 @@
+body {
+	font-family: 'Spartan', sans-serif;
+}
+#backgroundTitle {
+	transform: rotate(-90deg);
+	margin-left: -30vh;
+	margin-top: 35vh;
+	float: left;
+	font-size: 22vh;
+	font-weight: 900;
+	opacity: 0.06;
+	user-select: none;
+	-webkit-user-select: none;
+	cursor: default;
+}
+#container {
+	position: relative;
+ } 
+#background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+ }
